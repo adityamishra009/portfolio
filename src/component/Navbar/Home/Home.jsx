@@ -21,13 +21,24 @@ const handleResumeClick = () => {
         <h1 className="text-xl md:text-6xl font-bold flex leading-normal tracking-tighter">
           
         </h1>
-        <p className="text-sm md:text-2xl tracking-tight ">
-          Hi, I am [Aditya Mishra]
-           a passionate software developer 
-           learning and building web applications.
+
+      <p className="text-sm md:text-2xl tracking-tight text-gray-300">
+  Hi, I am{" "}
+  <span
+    className="
+      inline-block font-semibold text-white
+      animate-pulse
+    "
+  >
+  Aditya Mishra
+  </span>
+      , a passionate software developer learning and building web applications.
+
+      I focus on writing clean, maintainable code and
+building projects that solve real problems
+</p>
 
 
-        </p>
         <div className="flex flex-col gap-2 mt-3">
         
         <button onClick={handleContactClick} className="mt-2 md:mt-5 text-white py-2 px-4 text-sm md:text-lg hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697] w-fit"
